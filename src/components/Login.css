@@ -1,0 +1,85 @@
+/* Login.css */
+body {
+    background-color: #1a1a1a;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-box {
+    background-color: #2a2a2a;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .login-form {
+    
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-field {
+
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    background-color: #333;
+    color: #f0f0f0;
+    font-size: 14px;
+  }
+  
+  .input-field::placeholder {
+    color: #777;
+  }
+  
+  .submit-button {
+    padding: 12px;
+    background-color: #426157;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  
+  .submit-button:hover {
+    background-color: #e2c311;
+  }
+  
+  .toggle-button {
+    background: none;
+    border: none;
+    color: #ee7272;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0;
+    margin-top: 10px;
+    text-decoration: underline;
+  }
+  
+  h4 {
+    color: #aaa;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .imagen{
+    filter: blur(1px);
+    margin-bottom: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/src/images/711.jpg);
+    padding: 100px;
+  }
+  
